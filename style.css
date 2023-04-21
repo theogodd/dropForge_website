@@ -1,0 +1,94 @@
+
+/* this * applies to all */
+* {
+  box-sizing:border-box;
+}
+
+html {
+  background-color: grey;
+  color: black;
+  font-size: 20px;
+}
+
+/* align dropforge in center?*/
+header {
+  
+}
+
+.navigationBar {
+    background: lightgrey;
+    padding: 0px;
+    padding-left: 0;
+    padding-right: 0;  
+}
+
+ul {
+
+}
+
+/* styling for the layout of the navigatio bar */
+nav ul li {
+    list-style: none;
+    display:inline-block; 
+}
+
+/* so there isnt an underline on the text links */
+nav ul li a {
+    text-decoration: wavy;
+    padding: 45px;
+    color: orange;
+}
+
+/* change the colour of the words when hovered over */
+nav ul li a:hover{
+    color: ghostwhite;
+}
+
+#digital-clock {
+  /* background-color: darkgrey; */
+  /* width: 55%; */
+  margin:auto;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  /* font-size: 64px; */
+  text-align: right;
+ }
+
+ .dropForge {
+  width: 100%;
+  border: orange;
+}
+
+/* ------------------------- VIDEO PAGE ------------------------- */
+
+/* Create two equal columns that floats next to each other */
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0px;
+}
+ 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* ------------------------- ABOUT PAGE ------------------------- */
+
+#man1 {
+  width: 100%;
+}

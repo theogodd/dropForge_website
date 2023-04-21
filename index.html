@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Theo Goff">
+        <meta name="description" content="website created by theo to collate my work and projects in one place.">
+
+            <!-- linking the css and the javascript code -->  
+        <link rel="stylesheet" href="style.css">
+        <!-- linking jquery -->  
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <title>dropForge</title>
+        <link rel = "stylesheet" href = "styles.css">
+        <link rel="script" href="script.js">  
+    </head>
+    
+    <body>
+        <header>
+            <div id = "digital-clock"> </div>
+            <script src="script.js"> </script>
+        </header>
+
+        <main>
+            <!-- load in a p5.js sketch -->  
+            <script src="p5.min.js"></script>
+            <script src="index.js"></script>
+        </main>  
+        
+        <!-- same on all pages, links jquery so the navigation bar can be changed from the nav.html -->  
+        <nav id="navLinks">
+
+        </nav>  
+        <script>
+            $(function(){
+                $("#navLinks").load("nav.html");
+            });
+        </script>
+
+    </body>        
+</html>
